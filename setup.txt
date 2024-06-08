@@ -1,0 +1,11 @@
+For future reminder. How I set up this web project.
+
+npm install latest-version
+brew install node js (update it)
+cd Projects
+git clone https://github.com/matthewtglove/habit-highway (Have to move things around after using Vite, there's probably a better way to do it)
+npm create vite@latest habit-highway -- --template react-ts (from https://vitejs.dev/guide/)
+cd habit-highway
+npm install
+
+✅ npm run dev (use to start the test server)
